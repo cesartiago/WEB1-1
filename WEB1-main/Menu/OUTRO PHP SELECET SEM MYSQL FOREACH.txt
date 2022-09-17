@@ -1,0 +1,22 @@
+<?php
+                                        }
+                                        ?>
+
+                                        <?php
+                                        #$frutas = ['maça', "banana", "pera"];
+                                        #$frutas = mysqli_fetch_assoc($resultado_seus_projetos);
+                                        ?>
+
+                                        <!-- "?= $f" faz o mesmo efeito  que "echo $f". Isso no php abaixo-->
+                                        <?php foreach ($frutas as $f) { ?> <!-- Termina o php abrindo a chave, ele continua no próximo php
+                                        e aí fechará a chava. Sim, é estrnho, mais fica quebrado por "?>" mesmo. -->
+                                        <!-- <option value = "<?= $f; ?>"> <?= $f; ?> </option> -->
+                                        <?php } ?>
+                                        
+                                        <!-- ^PHP. EM HTML PURO ESTAVA:
+                                        <option id="P1">Projeto 1</option>
+                                        <option id="P1">Projeto 2</option>
+                                        -->
+                                    </select>
+
+                                </form>
